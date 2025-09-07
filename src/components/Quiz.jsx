@@ -3,27 +3,27 @@ import Result from "./Result";
 
 const quizData = [
   {
-    question: "Biến nào sau đây là hợp lệ trong JavaScript?",
-    options: ["1variable", "_variable", "var-name", "var name"],
-    answer: "_variable",
+    question: "Anh Hậu thích ăn gì?",
+    options: ["Chuối chiên", "Cá viên chiên", "Bún đậu", "Cơm sườn"],
+    answer: "Chuối chiên",
   },
   {
     question:
-      "Trong JavaScript, kiểu dữ liệu nào sau đây là kiểu dữ liệu nguyên thủy (primitive)?",
-    options: ["object", "array", "string", "function"],
-    answer: "string",
+      "Anh Hậu ghét con gì?",
+    options: ["Con Nhí", "Con bò sữa", "Con Nhím", "Con Mèo"],
+    answer: "Con Nhí",
   },
   {
     question:
-      "Thuật toán sắp xếp nào sau đây có độ phức tạp trung bình là O(n log n)?",
-    options: ["Bubble Sort", "Insertion Sort", "Merge Sort", "Linear Sort"],
-    answer: "Merge Sort",
+      "Anh Hậu muốn đi về lúc mấy giờ?",
+    options: ["12 giờ", "10 giờ", "11 giờ", "Không về"],
+    answer: "10 giờ",
   },
-  // {
-  //   question: "Kết quả của `typeof null` trong JavaScript là gì?",
-  //   options: ["'null'", "'undefined'", "'object'", "'number'"],
-  //   answer: "'object'",
-  // },
+  {
+    question: "Anh Hậu thường làm gì khi rảnh?",
+    options: ["Xem ảnh gái", "Học bài", "Chơi game", "Ngủ"],
+    answer: "Ngủ",
+  },
   // {
   //   question: "Bộ nhớ Stack dùng để làm gì?",
   //   options: [
